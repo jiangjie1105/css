@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css背景</title>
+    <style type="text/css">
+        body {
+            background-color: red
+        }
+
+        h1 {
+            background-color: green;
+        }
+
+        h2 {
+            background-color: transparent
+        }
+
+        p {
+            background-color: greenyellow
+        }
+
+        p.sb {
+            background-color: gray;
+            padding: 20px
+        }
+
+        /*意思是transparent 有“透明”之意。也就是说，如果一个元素没有指定背景色，那么背景就是透明的，这样其祖先元素的背景才能可见。*/
+    </style>
+</head>
+
+<body>
+    <h1>这是标题1</h1>
+    <h2>这是标题2</h2>
+    <p>这是一个段落</p>
+    <p class="sb">这是另一个设置了内边距的段落</p>
+
+</body>
+
+</html>
